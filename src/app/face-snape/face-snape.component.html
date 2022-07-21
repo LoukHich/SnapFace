@@ -1,0 +1,19 @@
+<div class="face-snap-card" [ngClass]="{ snappede: facesnape.btnComportement === 'unsnape' }">
+
+    <h2>{{ facesnape.title|uppercase}}</h2>
+    <p>{{facesnape.description}}</p>
+    <button (click)="onViewFaceSnap()">VIEW</button>
+    <!--
+    <p>Mis en ligne le {{ facesnape.description}}</p>
+    <img [src]="facesnape.urlImage" [alt]="facesnape.title">
+    <p>{{facesnape.description}}</p>
+    <button (click)="oneAddSnape()">{{facesnape.btnComportement}}</button>
+    <p>{{facesnape.createdDate|date:'longDate'}}</p>-->
+    <!--ng-template [ngIf]="snapped==true "><div>Aimer</div></ng-template-->
+     <!--<p *ngIf="facesnape.location">Location: @{{facesnape.location}}</p>
+    <p  [ngStyle]="{ color: facesnape.nbrJaime<3?'red':'bleu'}">  {{ facesnape.nbrJaime }}</p>-->
+
+
+</div>
+
+
